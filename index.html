@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:8000/api/progress" id="myForm" method="post" onsubmit="return MyForm.submit();">
+        <input type="text" name="fio" placeholder="text"><br>
+        <input type="email" name="email" placeholder="email"><br>
+        <input type="phone" name="phone" placeholder="number"><br>
+        <button type="submit" id="submitButton">Отправить</button><br>
+    </form>
+    <div id="resultContainer">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
